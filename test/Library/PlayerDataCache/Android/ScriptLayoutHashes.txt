@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/idiri/Desktop/UnityTest/androidTest0_7_2.apk
+C:/Users/idiri/Desktop/UnityTest/androidTest0_7_3.apk
 SceneListBegin?
 Assets/Scenes/StartScreen.unity
 Assets/Scenes/Menu.unity
