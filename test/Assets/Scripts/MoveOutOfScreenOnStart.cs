@@ -18,7 +18,6 @@ public class MoveOutOfScreenOnStart : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         pos = gameObject.GetComponent(typeof(RectTransform)) as RectTransform;
-        pos.GetWorldCorners(corners);
         if (speed > 0)
         {
             maxMove = Screen.currentResolution.height * 1.1f;

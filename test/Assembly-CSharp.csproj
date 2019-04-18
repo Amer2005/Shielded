@@ -65,11 +65,11 @@
     <Compile Include="Assets\Scripts\ArrowSpawnScript.cs" />
     <Compile Include="Assets\Scripts\BackButton.cs" />
     <Compile Include="Assets\Scripts\GrassAnimation.cs" />
-    <Compile Include="Assets\Scripts\MoveLeftRightDown.cs" />
-    <Compile Include="Assets\Scripts\MoveLeftRightText.cs" />
+    <Compile Include="Assets\Scripts\HighScoreScript.cs" />
+    <Compile Include="Assets\Scripts\LastScore.cs" />
+    <Compile Include="Assets\Scripts\MoveBackToStartPlace.cs" />
     <Compile Include="Assets\Scripts\MoveOutOfScreenOnClick.cs" />
     <Compile Include="Assets\Scripts\MoveOutOfScreenOnStart.cs" />
-    <Compile Include="Assets\Scripts\MoveSignUp.cs" />
     <Compile Include="Assets\Scripts\OpenShop.cs" />
     <Compile Include="Assets\Scripts\PlayAgain.cs" />
     <Compile Include="Assets\Scripts\PlayerKnockBack.cs" />

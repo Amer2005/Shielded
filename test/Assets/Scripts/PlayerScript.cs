@@ -26,19 +26,15 @@ public class PlayerScript : MonoBehaviour {
         shieldRightX = shield.transform.position.x;
         playerRightX = transform.position.x;
         transform.localRotation *= Quaternion.Euler(0, 180, 0);
-        print((int)Math.Round(transform.rotation.y));
         //0 - right 
         //-1 - left
         shieldLeftX = shield.transform.position.x;
         playerLeftX = transform.position.x;
         transform.localRotation *= Quaternion.Euler(0, 180, 0);
-        print((int)Math.Round(transform.rotation.y));
-
     }
 	
 	// Update is called once per frame
 	void Update () {
-        print((int)Math.Round(transform.rotation.y));
         if ((int)Math.Round(transform.rotation.y) == 0)
         {
             looking = "Right";

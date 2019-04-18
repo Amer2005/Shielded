@@ -46,5 +46,10 @@ public class ScoreScript : MonoBehaviour
         scoreNow++;
         scoreDelay = true;
         score.text = "Score: " + scoreNow + "  ";
+        PlayerPrefs.SetInt("LastScore", scoreNow);
+        if (scoreNow > PlayerPrefs.GetInt("HeightScore",0))
+        {
+            PlayerPrefs.SetInt("HeightScore", scoreNow);
+        }
     }
 }

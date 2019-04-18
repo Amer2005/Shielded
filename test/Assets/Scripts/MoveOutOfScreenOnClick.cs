@@ -12,13 +12,12 @@ public class MoveOutOfScreenOnClick : MonoBehaviour
     GameObject mainCanvas;
     Vector3[] corners = new Vector3[4];
     float maxMove;
-
+    bool buttonClicked = false;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
         pos = gameObject.GetComponent(typeof(RectTransform)) as RectTransform;
-        pos.GetWorldCorners(corners);
         if (speed > 0)
         {
             maxMove = Screen.currentResolution.height * 1.1f;
@@ -31,15 +30,17 @@ public class MoveOutOfScreenOnClick : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((pos.position.y >= maxMove && maxMove > 0)||(pos.position.y <= maxMove && maxMove < 0))
+        if (buttonClicked && ((pos.position.y >= maxMove && maxMove > 0)||(pos.position.y <= maxMove && maxMove < 0)))
         {
             rb.velocity = Vector3.zero;
+            Debug.Log("load scene");
             SceneManager.LoadScene("Game");
         }
     }
 
     public void ButtonClick()
     {
+        buttonClicked = true;
         rb.AddForce(transform.up * speed);
     }
 }

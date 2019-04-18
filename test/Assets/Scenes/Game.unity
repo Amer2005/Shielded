@@ -856,7 +856,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774780878}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -940,10 +940,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 774780878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e25405b826990845a276394e4f3f98c, type: 3}
+  m_Script: {fileID: 11500000, guid: ffbc9c2f52748d34282df55f61e5cded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
 --- !u!1 &897636300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,10 +1008,10 @@ RectTransform:
   m_Father: {fileID: 478306081}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.67600006, y: 0.9177779}
+  m_AnchorMin: {x: 0.67600006, y: 0.9466668}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.19995117, y: 0.42999268}
-  m_SizeDelta: {x: 0.38000488, y: -0.35998535}
+  m_AnchoredPosition: {x: -0.19995117, y: -0.5}
+  m_SizeDelta: {x: 0.3800001, y: 1.4899998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &924705647
 MonoBehaviour:
@@ -1064,10 +1064,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 924705645}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a74ec056d0d354b4993db2cf4b10473d, type: 3}
+  m_Script: {fileID: 11500000, guid: ffbc9c2f52748d34282df55f61e5cded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: -1
 --- !u!50 &924705650
 Rigidbody2D:
   serializedVersion: 4
@@ -1122,7 +1122,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946991158}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1206,10 +1206,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 946991158}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e25405b826990845a276394e4f3f98c, type: 3}
+  m_Script: {fileID: 11500000, guid: ffbc9c2f52748d34282df55f61e5cded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
 --- !u!4 &1047187888 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4519919231973458, guid: 5a7595202f28b2340a3156ec3444ff94,

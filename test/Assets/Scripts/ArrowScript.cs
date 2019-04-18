@@ -96,6 +96,7 @@ namespace Game
         {
             if (col.tag == "Body")
             {
+                Debug.Log("dead; Fricking die already");
                 Destroy(gameObject);
                 SceneManager.LoadScene("Menu");
             }
