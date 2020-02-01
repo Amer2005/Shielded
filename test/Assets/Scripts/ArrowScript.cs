@@ -16,8 +16,6 @@ namespace Game
 
         public float speed = 10f;
 
-        private Text score;
-
         // Use this for initialization
         private GameObject spawn;
 
@@ -105,6 +103,9 @@ namespace Game
             {
                 deSpawing = true;
                 gameObject.transform.SetParent(col.transform);
+
+                gameObject.transform.position = new Vector2(gameObject.transform.position.x + UnityEngine.Random.Range(-0.2f, 0.1f), gameObject.transform.position.y);
+                
                 speed = 0;
 
             }

@@ -9,7 +9,7 @@ public class ScoreScript : MonoBehaviour
 
     int untilDelay = 0;
     int maxDelay = 25;
-    int scoreNow = 0;
+    public static int scoreNow = 0;
 
     private Text score;
 
@@ -17,6 +17,7 @@ public class ScoreScript : MonoBehaviour
     void Start()
     {
         score = GameObject.FindGameObjectWithTag("score").GetComponent<Text>();
+        scoreNow = 0;
     }
 
     // Update is called once per frame
@@ -45,7 +46,7 @@ public class ScoreScript : MonoBehaviour
     {
         scoreNow++;
         scoreDelay = true;
-        score.text = "Score: " + scoreNow + "  ";
+        score.text = "Score " + scoreNow;
         PlayerPrefs.SetInt("LastScore", scoreNow);
         if (scoreNow > PlayerPrefs.GetInt("HeightScore",0))
         {
