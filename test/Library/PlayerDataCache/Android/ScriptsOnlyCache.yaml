@@ -1,6 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - GoogleMobileAds.Editor.GoogleMobileAdsSettings
     Assembly-CSharp.dll:
+    - AdScript
     - ArrowSpawnScript
     - Game.ArrowScript
     - GrassAnimation
@@ -33,7 +36,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
     com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
     Assets/Scenes/Game.unity:
@@ -64,35 +66,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9704}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9808}
+      Script: {instanceID: 9952}
     - Class: 114
-      Script: {instanceID: 9904}
+      Script: {instanceID: 10056}
     - Class: 114
-      Script: {instanceID: 9954}
+      Script: {instanceID: 10110}
     - Class: 114
-      Script: {instanceID: 10276}
+      Script: {instanceID: 10468}
     - Class: 114
-      Script: {instanceID: 10452}
+      Script: {instanceID: 10646}
     - Class: 114
-      Script: {instanceID: 10486}
+      Script: {instanceID: 10682}
     - Class: 114
-      Script: {instanceID: 10804}
+      Script: {instanceID: 11036}
     - Class: 114
-      Script: {instanceID: 10932}
+      Script: {instanceID: 11190}
     - Class: 114
-      Script: {instanceID: 11022}
+      Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11242}
+      Script: {instanceID: 11548}
     - Class: 114
-      Script: {instanceID: 11472}
+      Script: {instanceID: 11802}
     - Class: 114
-      Script: {instanceID: 11490}
+      Script: {instanceID: 11822}
     - Class: 114
-      Script: {instanceID: 11924}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 11942}
+      Script: {instanceID: 12320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -131,33 +133,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9704}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9904}
+      Script: {instanceID: 10056}
     - Class: 114
-      Script: {instanceID: 9954}
+      Script: {instanceID: 10110}
     - Class: 114
-      Script: {instanceID: 10266}
+      Script: {instanceID: 10458}
     - Class: 114
-      Script: {instanceID: 10452}
+      Script: {instanceID: 10482}
     - Class: 114
-      Script: {instanceID: 10652}
+      Script: {instanceID: 10646}
     - Class: 114
-      Script: {instanceID: 10914}
+      Script: {instanceID: 10864}
     - Class: 114
-      Script: {instanceID: 10932}
+      Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11490}
+      Script: {instanceID: 11190}
     - Class: 114
-      Script: {instanceID: 11796}
+      Script: {instanceID: 11822}
     - Class: 114
-      Script: {instanceID: 11924}
+      Script: {instanceID: 12154}
     - Class: 114
-      Script: {instanceID: 11938}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 11942}
+      Script: {instanceID: 12316}
     - Class: 114
-      Script: {instanceID: 24796}
+      Script: {instanceID: 12320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -204,45 +206,49 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9704}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9746}
+      Script: {instanceID: 9886}
     - Class: 114
-      Script: {instanceID: 9844}
+      Script: {instanceID: 9992}
     - Class: 114
-      Script: {instanceID: 9846}
+      Script: {instanceID: 9994}
     - Class: 114
-      Script: {instanceID: 9904}
+      Script: {instanceID: 10056}
     - Class: 114
-      Script: {instanceID: 9916}
+      Script: {instanceID: 10070}
     - Class: 114
-      Script: {instanceID: 9944}
+      Script: {instanceID: 10098}
     - Class: 114
-      Script: {instanceID: 9954}
+      Script: {instanceID: 10110}
     - Class: 114
-      Script: {instanceID: 10166}
+      Script: {instanceID: 10348}
     - Class: 114
-      Script: {instanceID: 10266}
+      Script: {instanceID: 10458}
     - Class: 114
-      Script: {instanceID: 10452}
+      Script: {instanceID: 10646}
     - Class: 114
-      Script: {instanceID: 10864}
+      Script: {instanceID: 11076}
     - Class: 114
-      Script: {instanceID: 10914}
+      Script: {instanceID: 11116}
     - Class: 114
-      Script: {instanceID: 10932}
+      Script: {instanceID: 11140}
     - Class: 114
-      Script: {instanceID: 11308}
+      Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11490}
+      Script: {instanceID: 11190}
     - Class: 114
-      Script: {instanceID: 11796}
+      Script: {instanceID: 11624}
     - Class: 114
-      Script: {instanceID: 11924}
+      Script: {instanceID: 11822}
     - Class: 114
-      Script: {instanceID: 11938}
+      Script: {instanceID: 12154}
     - Class: 114
-      Script: {instanceID: 11942}
+      Script: {instanceID: 12300}
+    - Class: 114
+      Script: {instanceID: 12316}
+    - Class: 114
+      Script: {instanceID: 12320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -476,6 +482,12 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuScript
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -608,6 +620,12 @@ ScriptsOnlyBuild:
     className: ScoreScript
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdScript
+  - hash:
+      serializedVersion: 2
       Hash: e213ff0193c403310ebf429d78fb71f4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -618,6 +636,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 6fb512c6733e02f441372611e6f94f11
+    assemblyName: Assembly-CSharp-Editor.dll
+    namespaceName: GoogleMobileAds.Editor
+    className: GoogleMobileAdsSettings
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -726,6 +750,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleMobileAds.Common
+    className: MobileAdsEventExecutor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -918,12 +948,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MenuScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/StartMenu.unity
